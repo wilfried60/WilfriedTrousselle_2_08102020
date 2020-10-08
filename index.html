@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>Reservia</title>
+        <meta name="description" content="Trouvez un hébergement pour vos vacances avec réservia.">
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+        <Body>
+              
+            <!-- header (menu / logo) -->
+           
+        
+              <div class="conteneur-central">                         
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#" style="color: #0065FC; font-weight: bold;">S'inscrire</a></li>
+                        <li><a href="#activite">Activités</a></li>           
+                        <li><a href="#hebergement">Hébergements</a></li>
+                    </ul>
+                </nav>
+
+                <img src="images/logo/Reservia.svg" alt="Reservia"/>
+
+            </header>
+
+                                     <!-- section 1 ( formulaire / filtres) -->
+
+            <section>
+            <h1>Trouver votre hébergement pour des vacances de rêve</h1>   
+            <h2>En plein centre ville ou en pleine nature</h2>
+            
+
+            <form method="post" action="index.html">
+                    <input type="text" name="localisation" id="localisation" placeholder="Lieu d'hébergement" />
+                    <input type="submit" value="Rechercher" class="recherche" />  
+                    <i class="fas fa-map-marker-alt" style="font-size: 1.3em;"></i>
+             </form>
+            
+            <div class="conteneur-filtre">     
+              <div class="titre-filtre">Filtres</div>
+              <div class="filtre"><div class="circle"><i class="fas fa-money-bill-wave" ></i> </div><p>&Eacute;conomique</p></div>
+              <div class="filtre"><div class="circle"><i class="fas fa-child" ></i> </div> <p>Familiale</p> </div>
+              <div class="filtre"><div class="circle"><i class="fas fa-heart" ></i> </div> <p>Romantique</p></div>
+              <div class="filtre"><div class="circle"><i class="fas fa-dog" ></i> </div> <p>Animaux autorisés</p></div>
+             </div>  
+            
+             <div class="circle-info"><i class="fas fa-info"></i></div>
+             <div class="info">Plus de 500 logements sont disponibles dans cette ville</div>  
+             </section>
+           
+                                          
+                                  <!-- section 2 ( conteneur résultat d'hébergement) -->
+
+             <section id="hebergement">
+             <div class="conteneur-hebergement">
+                 
+                    <h1>Hébergements à Marseille</h1>
+
+                <div class="img-box">
+                <figure>
+                     <a href="#"><img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebière"></a>
+               <figcaption>Auberge de la cannebière</figcaption>
+                    </figure>
+               
+                <figure>
+                    <a href="#"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port"></a> 
+                    <figcaption>Hôtel du port</figcaption>
+                </figure>
+            
+                <figure>
+                  <a href="#"><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes"></a> 
+                    <figcaption>Hôtel Les mouettes</figcaption>
+                </figure>
+            
+                <figure>
+                    <a href="#"><img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la mer"></a> 
+                    <figcaption>Hotel de la mer</figcaption>
+                </figure>
+            
+                <figure>
+                    <a href="#"><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le panier"></a> 
+                    <figcaption>Auberge Le panier</figcaption>
+                </figure>
+            
+                <figure>
+                    <a href="#"><img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina"></a>
+                    <figcaption>Hôtel chez Amina</figcaption>
+                </figure>
+            </div>
+                <div id="afficher-plus"><a href="#">Afficher plus</a></div> 
+            </div>
+
+              
+                                 
+                                 <!-- aside ( conteneur de droite / les plus populaires)-->
+
+                <aside>
+                    <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+                 
+                    <div class="populaire-flex">
+                        <figure class="populaire">
+                            <a href="#"><img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel Le soleil du matin"></a>
+                            <p>Hotel Le soleil du matin</p>
+                        </figure>
+                           <figure class="populaire">
+                            <a href="#"><img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes"></a>
+                      <figcaption><p>Au coeur de l'eau Chambres d'hôtes</p></figcaption>
+                           </figure>
+                           <figure class="populaire">
+                            <a href="#"><img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"></a>
+                      <figcaption><p>Hôtel Tout bleu et Blanc</p></figcaption>
+                           </figure>
+                        </div>
+                       </aside>
+               
+                 </section>
+                                         <!-- section activités-->
+
+
+                 <section id="activite">
+
+                 <h2> Activités à Marseille</h2>
+
+                 <div class="conteneur-activite">
+                    <div class="conteneur-activite-1-block">
+                        <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="marcus-lok" class="img-1" ></a>
+                    </div>
+                   
+                        <div class="conteneur-2-block">
+                      <div class="conteneur-activite-2-block">
+                        <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="marcus-lok" class="img-2" ></a>
+                      </div>
+                      <div class="conteneur-activite-3-block">
+                        <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="marcus-lok" class="img-3" ></a>
+                      </div>
+                    </div>
+
+                    <div class="conteneur-activite-1-block">
+                        <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="marcus-lok" class="img-1" ></a>
+                    </div>
+
+                    <div class="conteneur-2-block">
+                        <div class="conteneur-activite-2-block">
+                            <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="marcus-lok" class="img-2" ></a>
+                        </div>
+                        <div class="conteneur-activite-3-block">
+                            <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="marcus-lok" class="img-3" ></a>
+                        </div>
+                      </div>
+                 </div> 
+                 </section>
+                </div>   
+               
+               
+
+                                                          <!--footer-->
+                
+               <footer>
+                    <div class="block-footer">
+                    <div class="block-ul">
+                       
+                        <ul>
+                            <li><p>A propos</p></li>
+                            <li><a href="#">Fonctionnement du site</a></li>
+                            <li><a href="#">Conditions générales de vente</a></li>
+                            <li><a href="#">Données et confidentialité</a></li>
+                        </ul>
+                    </div>
+                    <div class="block-ul">
+                        <ul>
+                            <li><p>Nos hébergements</p></li>
+                            <li><a href="#">Charte qualité</a></li>
+                            <li><a href="#">Soumettre votre hôtel</a></li>                       
+                        </ul>
+                    </div>
+                        <div class="block-ul">
+                        <ul>
+                            <li><p>Assistance</p></li>
+                            <li><a href="#">Centre d'aide</a></li>
+                            <li><a href="#">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                </div>
+               </footer>
+            
+         
+            
+        
+    
+        </Body>
+
+</html>
