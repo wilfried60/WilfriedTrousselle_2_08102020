@@ -343,6 +343,7 @@ aside img:hover{
     min-height: 435px;
     overflow: hidden;
     justify-content: space-between;
+    margin-bottom: 35px;
   }
 
   .conteneur-2-block {
@@ -350,6 +351,7 @@ aside img:hover{
     flex-direction: column;
     justify-content: space-between;
     min-height: 435px;
+    margin-bottom: 35px;
     
   }
 
@@ -362,8 +364,7 @@ aside img:hover{
     position: relative;
     width: 250px;
     height: 230px;
-    overflow: hidden;
-   
+    overflow: hidden; 
     
   }
 
@@ -391,6 +392,7 @@ aside img:hover{
 .img-2{
     width: 250px;
     height: 180px;
+   
 
 }
 
@@ -402,7 +404,6 @@ aside img:hover{
 
 footer{
     margin: auto;
-    margin-top: 50px;
     margin-bottom: 30px;
     background: #f2f2f2;
     width: 90%;
