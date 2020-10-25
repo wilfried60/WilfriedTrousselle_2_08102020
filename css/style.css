@@ -348,7 +348,6 @@ figure{
 
 .img-box a:hover{
     color:#0065FC ;
-    font-size: 0.9em;
     opacity: 0.75;
 }
 
@@ -432,7 +431,6 @@ h2{
 
 .populaire-flex a:hover{
     color:#0065FC ;
-    font-size: 0.9em;
     opacity: 0.75;
 }
 
@@ -481,7 +479,7 @@ aside img{
 
 .conteneur-activite-block a:hover{
     color:#0065FC ;
-    font-size: 0.7em;
+   
 }
 
 .conteneur-activite figcaption p{
