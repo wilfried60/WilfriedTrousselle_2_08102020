@@ -94,6 +94,9 @@ a{
     display: none;
 }
 
+nav{
+    margin-top: 20px;
+}
 
 /* section 1 ( formulaire / filtres)*/
 
@@ -1145,6 +1148,13 @@ aside{
             width: 100%;
             height: 120px;
             object-position: 0 -140px;
+        
+        }
+
+        .img-4{
+            width: 100%;
+            height: 120px;
+            object-position: 0 -20px;
         
         }
 
