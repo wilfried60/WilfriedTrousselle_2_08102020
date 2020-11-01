@@ -120,11 +120,6 @@ input{
     border: solid 1px #d0d5da ;
 }
 
-.fa-map-marker-alt{
-    margin-top: -1px;
-    font-size: 1.2em;  
-}
-
 .recherche{
     margin-top: -2px;
     height: 40px;
@@ -152,6 +147,8 @@ input{
     padding: 10px;
     padding-left: 15px;
     border-radius:15px 0 0 15px;
+    margin-top: -1px;
+    font-size: 1.2em; 
 }
 
 .conteneur-filtre{
