@@ -116,13 +116,17 @@ h1{
 }
 
 input{
-
-    height: 35px;
+    padding: 10px;
     border: solid 1px #d0d5da ;
 }
 
-.recherche{
+.fa-map-marker-alt{
+    margin-top: -1px;
+    font-size: 1.2em;  
+}
 
+.recherche{
+    margin-top: -2px;
     height: 40px;
     background: #0065FC;
     margin-left: -5px;
@@ -137,7 +141,6 @@ input{
 }
 
 ::placeholder {
-    
     font-weight: bold;
     color: black;
   }
@@ -634,13 +637,14 @@ footer{
     }
 
     #localisation{
-        width: 77%;
+        width: 73%;
         font-weight: bold;
 
     }
 
     input{
-
+        padding: 0;
+        padding-left: 10px;
         height: 35px;
         border: solid 1px #d0d5da ;
     }
